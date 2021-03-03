@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/bootstrap 4/bootstrap.css">
+    <!-- Fon Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css">
+    <!-- Nozmalize Css -->
+    <link rel="stylesheet" href="normalize css/normalize.css">
+    <!-- My Css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav id="nav-id" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top home py-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Portfolio</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#showcase" class="nav-link">Bosh Sahifa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#xizmatlar" class="nav-link">Xizmatlar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Biz Haqimizda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#section" class="nav-link">Javascript</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- SHOWCASE SLIDER -->
+    <section id="showcase">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block text-right mb-5">
+                            <h1 class="display-3">Html va Css</h1>
+                            <p class="lead">Web dasturlashnig asosini tashkil qiladi. Html Sayt tuzilishi, Skeleti Bo'lsa, Css uning Dizayni hisoblanadi</p>
+                            <a href="#html" class="btn btn-danger btn-lg">Hoziroq Bizga Qo'shiling</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="display-3">Web dasturlash haqida</h1>
+                            <p class="lead">Qanday texnologiyalar o‘rganiladi? Nimadan boshlash kerak?</p>
+                            <a href="#web" class="btn btn-primary btn-lg">Batafsil</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block text-left mb-5">
+                            <h1 class="display-3">Dasturlash tillari</h1>
+                            <p class="lead"> 2020-yilning eng ko‘p foydalanilayotgan dasturlash tillari.</p>
+                            <a href="#dastur" class="btn btn-success btn-lg">Batafsil</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    <!-- Services -->
+    <div class="xizmatlar py-5  text-center services bg-dark text-white d-flex align-items-center " id="xizmatlar" data-aos="zoom-in" data-aos-duration="2500">
+
+        <div class="container">
+            <h1 data-aos="flip-up" data-aos-duration="1400">Xizmatlar</h1>
+            <hr>
+            <p class="mb-5" data-aos="flip-up" data-aos-duration="1400"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, reiciendis.</p>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1400">
+                    <div class="services-card">
+                        <i class="fas fa-shopping-cart fa-3x p-4 bg-warning mb-3 icons"></i>
+                        <h2>Hamyonbop narxlar</h2>
+                        <hr>
+                        <p> Narxlar hamyonbop va sifatli xizmat ko'rsatish.Narxlar hamyonbop va sifatli xizmat ko'rsatish.Narxlar hamyonbop va sifatli xizmat ko'rsatish.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1400">
+                    <div class="services-card">
+                        <i class="fas fa-laptop fa-3x p-4 bg-warning mb-3 icons"></i>
+                        <h2>Responsive Web-sayt</h2>
+                        <hr>
+                        <p>Biznig web saytlar moslashuvchan bo'lib har qanday mobile Ipad va destkopda ham o'z shaklini saqlab qoladiNarxlar hamyonbop va sifatli xizmat ko'rsatish.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1400">
+                    <div class="services-card">
+                        <i class="fas fa-lock fa-3x p-4 bg-warning mb-3 icons"></i>
+                        <h2>Web security</h2>
+                        <hr>
+                        <p> Himoya tizimi mustahkam tuzilgan va hakkerlar hujumidan saqlangan.Narxlar hamyonbop va sifatli xizmat ko'rsatish.Narxlar hamyonbop va sifatli xizmat ko'rsatish.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Portfolio -->
+    <div class="portfolio py-5 text-center d-flex align-items-center" id="portfolio" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="container">
+            <h1 data-aos="flip-up" data-aos-duration="1400">Portfolio</h1>
+            <p data-aos="flip-up" data-aos-duration="1400">Mening portfolioyim</p>
+            <div class="row">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/htb.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Hotel HTB</h4>
+                                <p>Mexmonxona uchun web sayt(unresponsive)
+                                    <a class="btn btn-primary btn-block" href="https://htbhotel.netlify.app">Ko'rish</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-up" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/31mak.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Maktab</h4>
+                                <p>Maktabim uchun web sayt.(responsive)
+                                    <a class="btn btn-primary btn-block" href="https://31mkandijon.netlify.app">Ko'rish</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/glozzom.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Glozzom</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur (Responsive)
+                                    <a class="btn btn-primary btn-block" href="https://glozzom-me.netlify.app">Ko'rish</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="flip-right" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/Texnotime.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Texnotime</h4>
+                                <p>O'quv markazi web sayti
+                                    <a class="btn btn-primary btn-block" href="https://texnotime.netlify.app">Ko'rish</a>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-down" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/ajoyib.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Ajoyib Effect</h4>
+                                <p>Javasciptda Yaratilgan Ajoyib Effect
+                                    <a class="btn btn-primary btn-block" href="https://effectajoyib.netlify.app">Ko'rish</a>
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1200">
+                    <div class="imgbox">
+                        <img src="img/kal.png" alt="Avatar" class="image img-fluid">
+                        <div class="middle">
+                            <div class="text">
+                                <h4>Kalkulator</h4>
+                                <p>Javasciptda ajoyib kalkulator
+                                    <a class="btn btn-primary btn-block" href="https://mycalculator-me.netlify.app">Ko'rish</a>
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div class="about py-5 text-center text-white bg-dark d-flex align-self-center align-items-center" id="about" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="5000">
+                    <img class="img-fluid" src="img/me.png" alt="">
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="2000">
+                    <h1 class="pb-5 display-5" data-aos="flip-up" data-aos-duration="1400">About me</h1>
+
+                    <i data-aos="flip-up" data-aos-duration="1400">Hello I'm Ne'matjonov Abdulaziz. I'm 14 years old. I'm Frontend Developer. I want to be Senior Full Stack Developer. This is my Portfolio Web Site See my Web Design</i>
+                    <div class="icons1 ">
+                        <h4 class="d-flex justify-content-between" data-aos="flip-up" data-aos-duration="1400"><span class="firstspan"><i class="fas fa-user"> NAME:</i></span>
+                            <span class="secondspan" data-aos="flip-up" data-aos-duration="1400"> Abdulaziz Ne'matjonov</span></h4>
+                        <h4 class="d-flex justify-content-between" data-aos="flip-up" data-aos-duration="1400"><span class="firstspan"><i class="fas fa-calendar-alt"> BIRTHDAY:</i></span>
+                            <span class="secondspan" data-aos="flip-up" data-aos-duration="1400"> 17 June </span></h4>
+                        <h4 class="d-flex justify-content-between" data-aos="flip-up" data-aos-duration="1400"><span class="firstspan"><i class="fas fa-map-marked-alt"> ADDRESS:</i></span>
+                            <span class="secondspan" data-aos="flip-up" data-aos-duration="1400"> Andijon City </span></h4>
+                        <h4 class="d-flex justify-content-between" data-aos="flip-up" data-aos-duration="1400"><span class="firstspan"><i class="fas fa-map-marked-alt"> SCHOOL:</i></span>
+                            <span class="secondspan" data-aos="flip-up" data-aos-duration="1400"> School 31</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- javascript -->
+    <div id="section" class="form text-center py-3 d-flex align-self-center align-items-center" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="container ">
+            <h1 data-aos="zoom-in" data-aos-duration="1400">Javascript kutubxonalari</h1>
+            <hr>
+            <i data-aos="zoom-in" data-aos-duration="1400">Web-dasturchi  — boshlovchi dasturchilar uchun eng oson va shu bois  eng ommalashgan yo‘nalish hisoblanadi. Ishlash uchun istalgan matn muharriri va brauzer yetarli bo‘ladi, chuqurlashgan darajada algaritmni o‘rganish shart emas. Dasturni yozishning har bir bosqichi natijasi ko‘rinib turadi. Umuman olganda, ustunligi anchagina. Veb-dasturchi bo‘lishning muhim jihati, bu JavaScript’ ni o‘zlashtirish hisoblanadi.</i>
+            <p data-aos="zoom-in" data-aos-duration="1400"> Nima uchun JavaScript?</p>
+            <a href="#js" class="btn btn-outline-dark btn-md my-3" data-aos="zoom-in" data-aos-duration="1400">Batafsil</a>
+            <hr>
+
+            <div class="row py-5" data-aos="zoom-in" data-aos-duration="2000">
+                <div class="col-xl-4" data-aos="fade-right" data-aos-duration="1400">
+                    <img class="img" src="img/react.png" id="id1">
+                    <button class="btn btn-default btn-block ">React Js</button>
+                    <p>Reakt interfaol foydalanuvchi interfeyslar(UI)ni qiyinchiliksiz yaratish imkoni beradi. Ilovangizdagi har bir holat uchun oddiy ko’rinishni loyihalashtiring va React sizning ma’lumotlaringizni faqat o’zgartirgan tarkibiy qismlarni
+                        belgilab ularni samarali ravishda yangilaydi. Deklarativ ko’rinishlar sizning kodingizni oldindan bashorat qilish va xatoliklarni onsonroq aniqlashga yordam beradi</p>
+                </div>
+                <div class="col-xl-4" data-aos="fade-down" data-aos-duration="1400">
+                    <img class="img " src="img/angular.png">
+                    <button class="btn btn-default btn-block ">Angular Js</button>
+                    <p>HTML statik hujjatlarni e'lon qilish uchun juda yaxshi, ammo biz veb-dasturlarda dinamik ko'rinishni e'lon qilish uchun foydalanishga harakat qilsak, u ishlamay qoladi. AngularJS ilovangiz uchun HTML so'z boyligini kengaytirishga imkon
+                        beradi. Natijada paydo bo'lgan muhit favqulodda ifodali, o'qilishi mumkin va tez rivojlanadi.
+                    </p>
+                </div>
+                <div class="col-xl-4" data-aos="fade-left" data-aos-duration="1400">
+                    <img class="img" src="img/node.png">
+                    <button class="btn btn-default btn-block">Node Js</button>
+                    <p>Express, Node.jsda web-dasturlarni yaratishda keng ko'lamda yordam beruvchi, minimalistik va moslashuvchan freymvorkdir. Express Nodedagi siz bilgan va sevgan imkoniyatlarni cheklamagan holda web-dasturlardagi eng asosiy imkoniyatlar
+                        bilan ta'minlab beradi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog -->
+    <div class="blog py-5 d-flex text-center align-self-center align-items-center bg-dark text-white justify-content-center" id="blog" data-aos="zoom-in" data-aos-duration="2500">
+        <div class="container">
+            <h1 class="text-center" data-aos="zoom-in" data-aos-duration="1400">Our Blog</h1>
+            <p class="text-center pb-5" data-aos="flip-up" data-aos-duration="1400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, nam.</p>
+            <div class="row">
+
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1400">
+                    <div class="card bg-dark" id="html">
+                        <div class="card-header m-auto">
+                            <img src="img/html.png" class="img-fluid" alt="">
+                            <h3>HTML5 va CSS3</h3>
+                            <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                        </div>
+                        <div class="card-body">
+                            <p>HTML va CSS veb sahifalar asosini tashkil qiladi. HTML saytda aynan nimalar joylashishi kerakligiga mas’ul bo‘lsa (matn, rasm, video), CSSda ularning qaysi tartibda joylashuvi va qanday ko‘rinishda bo‘lishi yozib chiqiladi.
+                                Sayt foydalanuvchilarga ko‘rinadigan elementlar HTML va CSSda tuzilgani uchun bu ikkisisiz sayt tuzib bo‘lmaydi. Shuning uchun ham frontend sohasini o‘rganish aynan shu texnologiyalardan boshlanadi. Bularda bor imkoniyatlarga
+                                qo‘shimchalar va yangiliklar qo‘shilib, HTML5 va CSS3 standardlari ishlab chiqilgan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1400">
+                    <div class="card bg-dark" id="web">
+                        <div class="card-header  m-auto">
+                            <img src="img/css3.png" class="img-fluid" alt="">
+                            <h3>Web Dasturlash</h3>
+                            <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                        </div>
+                        <div class="card-body">
+                            <p> Frontend dasturlash sohasi bir necha til va texnologiyalarni o‘z ichiga oladi. Uning asoslari HTML, CSS va JavaScriptdir. Vaqt davomida saytlarning ko‘rinishi va ishlashiga bo‘lgan sifat talabi o‘sishi tufayli shu texnologiyalar
+                                asosida bir qancha freymvork va kutubxonalar tuzib chiqilgan. Ulardan ko‘zlangan asosiy maqsadlardan biri sayt tuzishga ketadigan vaqtni qisqartirishdir. CSS asosida Less, Less oldindan ishlov beruvchi (preprotsessor),
+                                foydalanuvchi interfeysini tuzishda yordam beruvchi Bootstrap, Materialize, Foundation, Bulma va Tailwind freymvorklari tuzilgan </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1400">
+                    <div class="card bg-dark" id="js">
+                        <div class="card-header  m-auto">
+                            <img src="img/js.png" class="img-fluid" alt="">
+                            <h3>Javascript</h3>
+                            <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                        </div>
+                        <div class="card-body">
+                            <p>JavaScript ham yuqorida aytib o‘tilgan texnologiyalar kabi frontend dasturlashning ajralmas qismidir. JavaScript brauzerlarda ishlovchi dasturlash tili bo‘lib, u yordamida veb sahifaga interfaollik imkoniyatini berish mumkin
+                                bo‘ladi. Misol uchun biron tugma bosilganda yoki foydalanuvchi saytning biror qismiga kelganda yangi oyna ochilishi yoki biron xabar ko‘rinishi. Birmuncha vaqt oldin sayt elementlariga interfaollik qo‘shishda JavaScriptning
+                                o‘zidan foydalanish dasturchi uchun nisbatan qiyin bo‘lgan, ba’zi vazifalarni bajarishning imkoni bo‘lmagan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1400">
+                    <div class="card bg-dark  p-4 mt-3" id="dastur">
+                        <ol class="list-group text-center">
+                            <li>JavaScript | 18.4%</li>
+                            <li>Java | 15.4%</li>
+                            <li>C# | 13.7%</li>
+                            <li>Python | 13.2%</li>
+                            <li>PHP | 10.2%</li>
+                        </ol>
+                        <hr>
+                        <p>👨🏻‍💻 2020-yilning eng ko‘p foydalanilayotgan dasturlash tillari. "🤔 Qaysi dasturlash tilini o‘rgansam ekan?" deb yurganlar uchun kerakli maʼlumot.</p>
+                        <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-duration="1400">
+                    <div class="card bg-danger text-white  p-4 mt-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eius. Nostrum maiores ullam enim amet nemo neque dolor perferendis dolorum.</p>
+                        <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1400">
+                    <div class="card bg-dark   p-4 mt-3">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, eius. Nostrum maiores ullam enim amet nemo neque dolor perferendis dolorum.</p>
+                        <i id="small">Written by Abdulaziz &copy <span class="year"></span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer below -->
+    <footer id="main-footer" class="text-center p-5 text-white " data-aos="zoom-in" data-aos-duration="1400">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span id="year"></span> All right reserved | Made by <i class="btn btn-primary"> Abdulaziz</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer above -->
+    <!-- Bootstrap -->
+    <script src="bootstrap-5.0.0-beta1-dist/bootstrap 4/js/jquery.js"></script>
+    <script src="bootstrap-5.0.0-beta1-dist/bootstrap 4/js/popper.js"></script>
+    <script src="bootstrap-5.0.0-beta1-dist/bootstrap 4/js/bootstrap.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- my Js Files -->
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
